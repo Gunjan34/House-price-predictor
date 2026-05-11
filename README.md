@@ -1,25 +1,28 @@
-#House Price Prediction
+# 🏠 Smart House Price Predictor
 
-This is a simple Machine Learning project that predicts house prices based on area and 
+A machine learning web application that predicts house prices based on area (sq ft) and number of bedrooms.
 
-##Technologies Used
--Python 
--Pandas
--Scikit-learn
+## 🚀 Features
+- Predict house price instantly
+- Clean and modern UI using Streamlit
+- Trained using Linear Regression
+- Real-time user input prediction
 
-##Dataset
-The dataset contains:
--Area(in square feet)
--Number of bedrooms
--Price
+## 🧠 Tech Stack
+- Python
+- Pandas
+- Scikit-learn
+- Streamlit
 
-##How it Works
-1.Load dataset
-2.Train Linear Regression model
-3.Save trained model
-4.Predict house price
+## 📊 How it Works
+1. Load dataset (`data.csv`)
+2. Train model using Linear Regression
+3. Save model using pickle (`model.pkl`)
+4. Take user input (area & bedrooms)
+5. Predict price and display result
 
-##Run the Project
+## 💻 Run Locally
+
 ```bash
-pip install pandas scikit-learn
-python main.py
+pip install -r requirement.txt
+streamlit run app.py
